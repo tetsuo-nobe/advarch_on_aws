@@ -74,7 +74,7 @@
 
 1. curl コマンドでアクセスを確認する。
     - `curl  <メモしておいた DNS 名>`
-    - **<H1>Welcome to my Service</H1>** と表示されることを確認
+    - **<pre><H1>Welcome to my Service</H1></pre>** と表示されることを確認
 
 ---
 
