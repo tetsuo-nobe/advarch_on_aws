@@ -117,6 +117,9 @@
 
 ## Service （NodePort タイプ）の作成
 
+* Service は、Pod へアクセスするエンドポイントを提供する Kubernetes のオブジェクトです。
+* NodePort タイプの Service は、動作しているノード (EC2 インスタンス）の ホスト名とポート番号を使用してアクセスできるようにします。
+
 1. Cloud9 画面左側から 下記の Service のマニフェストのファイルをダブルクリックして開きます。
    ```
    running_containers_on_amazon_eks/mod6/service/service-nodeport.yaml
@@ -164,6 +167,7 @@
 1. AWS マネジメントコンソールで、右上に表示されている IAM ユーザー名をクリックして、メニューからサインアウトをクリックします。
 * お疲れ様でした！
 * **このワーク環境は、ワーク実施時だけの一時的な環境になります。**  
+
 
 
 
