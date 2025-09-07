@@ -208,7 +208,7 @@ Resources:
           Value: "PrivateLink-Provider-NLB"
       Scheme: "internal"
       LoadBalancerAttributes: 
-        - Key: "deletion_protection.disabled"
+        - Key: "deletion_protection.enabled"
           Value: false
       Subnets: 
         - !Ref PrivateSubnet01
