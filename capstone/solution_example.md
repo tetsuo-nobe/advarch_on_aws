@@ -24,7 +24,7 @@ flowchart LR
 
     subgraph ONP["オンプレミス"]
         subgraph HQ["本社 10.0.0.0/16"]
-            DNS["社内 DNS / AD<br/>corp.mirai.local"]
+            DNS["社内 DNS<br/>corp.mirai.local"]
             FGW["S3 File Gateway<br/>（NFS 共有を提供）"]
             HQRT["本社ルーター"]
             CAD["設計部門（約 50 名）<br/>CAD 端末"]
